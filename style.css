@@ -1,0 +1,60 @@
+.vending-machine {
+    border: 5px dotted black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vending-machine button {
+    width: 40%;
+    margin: 5px;
+}
+
+/* .pennyImg {
+    background-color: rgb(200, 104, 35);
+    height: 50px;
+    width: 50px;
+    border: 1px solid brown;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.coin {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.penny {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+.nickel {
+    width: 120px;
+    height: 120px;
+    background-color: silver;
+}
+
+.dime {
+    width: 90px;
+    height: 90px;
+    background-color: silver;
+}
+
+.quarter {
+    width: 150px;
+    height: 150px;
+    background-color: silver;
+}
+
+.makeMoney {
+    border: 3px dotted red;
+    padding: 5px;
+    margin: 20px 0px;
+}
